@@ -1,0 +1,39 @@
+/* Pohja */
+body{background-color:#D7D7D7;}
+
+#keskita 	{text-align:center;}
+h1 			{font-family:"comic sans ms","Bookman Old Style","Lucida Sans Unicode"; color:#9C6963; text-align:center; margin-top: 0px; padding-top: 0px; font-size:200%;}
+
+#navigointi	{position:relative; top:0px; margin-left:auto; margin-right:auto; text-align:center; background-color:#CFCFCF; height:150px; width:800px;}	
+
+/* Linkkien tyyli*/
+#pain_link				{filter:alpha(opacity=50); -moz-opacity: 0.5; opacity: 0.5; -khtml-opacity: 0.5;}
+a.linkki 			{position:relative; text-decoration:none;}
+a.linkki:hover img	{filter:alpha(opacity=50); -moz-opacity: 0.5; opacity: 0.5; -khtml-opacity: 0.5;}
+a.linkki img 			{filter:alpha(opacity=100); -moz-opacity: 1.0; opacity: 1.0; -khtml-opacity: 1.0; }
+
+#tl			{font-family:"comic sans ms","Bookman Old Style","Lucida Sans Unicode"; color:#9C6963;}
+#tl1		{position:relative; right:85px;}
+#tl2		{position:relative; right:45px;}
+#tl3		{position:relative; right:15px;}
+#tl4		{position:relative; left:10px;}
+#tl5		{position:relative; left:30px;}
+#tl6		{position:relative; left:57px;}
+#tl7		{position:relative; left:97px;}
+
+#el			{position:relative; bottom:25px; text-align:center; color:grey; font-family:"comic sans ms","Bookman Old Style","Lucida Sans Unicode";}
+
+#st			{border: 3px solid #9C6963;}
+#se			{position:relative; left:450px;}
+#ta			{position:relative; left:250px;}
+
+/*Maalukset sivu*/
+#tal            {color:blue;} 
+#kes            {color:yellow;} 
+#syk            {color:red;} 
+#kev            {color:green;} 
+th            {position:relative; font-size:20px;}
+
+/*Alalaatikko*/
+
+#nauhat				{position:relative; top:0px; margin-left:auto; margin-right:auto; text-align:left; background-image:url('rakenne/Viiva1.jpg'); background-repeat:no-repeat; background-color:#999999; height:250px; width:800px;}	
