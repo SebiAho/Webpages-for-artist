@@ -1,0 +1,25 @@
+<html>
+<head>
+<style type="text/css"> 
+.kuva_galleria {display:block; height:50px; width:140px; text-decoration:none; text-align:center; line-height:45px; background-image:url(kuvatk/kuva1.jpg); background-repeat:no-repeat; font-size:100%; color:rgb(40,40,40);}
+</style>
+<script type="text/javascript">
+function kuva_iso(ID)
+{
+document.getElementById(ID).style.backgroundImage = "url(kuvatk/kuva2.jpg)";
+document.getElementById(ID).style.color = "rgb(70,70,70)";
+document.getElementById(ID).style.height:"200px";
+}
+function kuva_pieni(ID)
+{
+document.getElementById(ID).style.backgroundImage = "url(kuvatk/kuva1.jpg)";
+document.getElementById(ID).style.color = "rgb(40,40,40)";
+document.getElementById(ID).style.fontSize = "100%";
+}
+</script>
+</head>
+<body>
+<a href="#" class="kuva_galleria" id="S1" onmouseover="kuva_iso('S1')" onmouseout="kuva_pieni('S1')"></a>
+<a href="#" class="kuva_galleria" id="S2" onmouseover="kuva_iso('S2')" onmouseout="kuva_pieni('S2')"></a>
+</body>
+</html>
